@@ -1,0 +1,109 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ===========================
+# Virtual Environments
+# ===========================
+venv/
+.venv/
+env/
+.env/
+ENV/
+virtualenv/
+
+# ===========================
+# Environment Variables / Secrets
+# ===========================
+.env
+.env.local
+.env.*.local
+*.secret
+secrets.json
+
+# ===========================
+# ChromaDB (Vector Database)
+# ===========================
+chroma_db/
+chromadb/
+*.sqlite3
+*.chroma
+
+# ===========================
+# Unstructured / Document Processing Cache
+# ===========================
+.cache/
+unstructured_cache/
+*.pdf.cache
+figures/
+
+# ===========================
+# Sentence Transformers / HuggingFace Model Cache
+# ===========================
+models/
+.cache/huggingface/
+sentence_transformers_cache/
+
+# ===========================
+# Streamlit
+# ===========================
+.streamlit/secrets.toml
+
+# ===========================
+# Uploaded / Temporary Files
+# ===========================
+uploads/
+tmp/
+temp/
+*.tmp
+output/
+outputs/
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===========================
+# IDEs & Editors
+# ===========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/

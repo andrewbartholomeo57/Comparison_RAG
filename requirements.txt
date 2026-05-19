@@ -1,0 +1,11 @@
+unstructured
+chromadb
+langchain
+langchain-community
+sentence-transformers
+langchain-huggingface
+langchain-core
+layoutparser
+opencv-python
+pillow
+streamlit
